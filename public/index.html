@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    
+</head>
+<body class = 'container'>
+    <header class = "container p-2">
+        <h1>Koinget</h1>
+
+    </header>
+    <div class="botonera">
+        
+    </div>
+    <div class="gastos container d-flex">
+        <div class="formulario-gastos container-fluid d-flex flex-column">
+            <label for="nombreGasto">
+                Nombre de gasto
+                <input type="text" id = "nombreGasto" placeholder="Nombre Gasto">
+            </label>
+            <label for = 'cantGasto'>
+                Cantidad
+                <input id = 'cantGasto' type = 'text' placeholder="Cantidad">
+            </label>
+            <button type="button" class="btn btn-secondary" id = 'addGasto'>Añadir Gasto</button>
+        </div>
+        
+        <div id="container-gasto">
+
+            <canvas id = 'gastos'></canvas>
+        </div>
+    </div>
+    
+ 
+
+    <script src = 'main.js' type = 'module'></script>
+    <script src = 'login.js' type = 'module'></script><script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
